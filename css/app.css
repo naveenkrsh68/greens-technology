@@ -919,10 +919,16 @@ header .botom-menu {
     margin: 20px 0 0 0;
     border: 1px solid #ccc;
     background: #F9F9F9; }
+    @media (max-width: 767px) {
+      .course-body .course-info {
+        margin-bottom: 20px; } }
     .course-body .course-info .nav-tabs {
       border-bottom: 0; }
       .course-body .course-info .nav-tabs .nav-item {
         width: 20%; }
+        @media (max-width: 767px) {
+          .course-body .course-info .nav-tabs .nav-item .text {
+            display: none; } }
         .course-body .course-info .nav-tabs .nav-item .nav-link {
           color: #333;
           background: #F5EE22;
@@ -937,6 +943,9 @@ header .botom-menu {
             color: #333; }
     .course-body .course-info .course-content {
       padding: 25px; }
+      @media (max-width: 767px) {
+        .course-body .course-info .course-content {
+          padding: 15px; } }
       .course-body .course-info .course-content .course-overview p {
         color: #959595;
         line-height: 26px; }
@@ -1019,6 +1028,9 @@ header .botom-menu {
         text-align: center;
         border-radius: 50%;
         padding: 30px 15px 13px; }
+        @media (max-width: 767px) {
+          .course-body .course-info .course-content #review .average-rating {
+            margin: 0 auto; } }
         .course-body .course-info .course-content #review .average-rating .average_rating_value {
           font-size: 100px;
           line-height: 100px;
